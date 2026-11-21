@@ -1,0 +1,28 @@
+.wrap {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: conic-gradient(#2ecc71 0% 85%, rgba(46, 204, 113, 0.2) 85% 100%);
+  position: relative;
+}
+
+.inner {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 420px;
+}
+
+.shadow {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 10px;
+  background: gray;
+  z-index: 0;
+}
+
+.main {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #fff;
+  color: black;
+  box-sizing: border-box;
+  width: 100%;
+}

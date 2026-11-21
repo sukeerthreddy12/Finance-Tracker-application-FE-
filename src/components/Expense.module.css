@@ -1,0 +1,61 @@
+.expenseContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(28, 28, 30, 0.9);
+  border-radius: 16px;
+  padding: 24px;
+  margin: 4px 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.leftContent {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.imageContainer {
+  background: rgba(58, 58, 60, 0.7);
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.expenseImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: block;
+}
+
+.merchantInfo {
+  flex: 1;
+  margin-left: 16px;
+}
+
+.merchantText {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.dateText {
+  color: #8e8e93;
+  font-size: 14px;
+  line-height: 1.2;
+  display: block;
+}
+
+.rightContent {
+  text-align: right;
+}
+
+.amountText {
+  color: #007aff;
+  font-size: 18px;
+  font-weight: 700;
+}
